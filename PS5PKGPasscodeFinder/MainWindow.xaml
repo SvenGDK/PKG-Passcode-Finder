@@ -1,0 +1,19 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PS5PKGPasscodeFinder"
+        mc:Ignorable="d"
+        Title="PS5 PKG Passcode Finder" Background="#2D2D30" Height="120" Width="620" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="405,56,0,0" VerticalAlignment="Top" Width="106" FontWeight="Bold"/>
+        <TextBox x:Name="SelectedPKGFIleTextBox" HorizontalAlignment="Left" Margin="110,8,0,0" VerticalAlignment="Top" Width="402"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Select a PS5 PKG :" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="ExtractToTextBox" HorizontalAlignment="Left" Margin="110,33,0,0" VerticalAlignment="Top" Width="402"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,34,0,0" TextWrapping="Wrap" Text="Output Path :" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="BrowsePKGButton" Content="Browse" HorizontalAlignment="Left" Margin="517,9,0,0" VerticalAlignment="Top" Width="80" Height="18"/>
+        <Button x:Name="BrowseOutputPathButton" Content="Browse" HorizontalAlignment="Left" Margin="517,35,0,0" VerticalAlignment="Top" Width="80" Height="18"/>
+
+    </Grid>
+</Window>
